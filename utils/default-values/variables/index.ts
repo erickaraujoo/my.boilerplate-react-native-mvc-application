@@ -1,0 +1,16 @@
+export const requestAddPage = 1;
+export const defaultLeftPad = 2;
+export const requestInitialTotalElements = '00';
+export const requestInitialPage = 1;
+export const requestLimit = 10;
+export const noFlatlistFooterMarginTop = 0;
+export const flatlistFooterMarginTop = 16;
+export const emptyArray = 0;
+export const emptyString = 0;
+export const defaultFlatValue = 1;
+export const initialReduceValue = 0;
+export const sumValueIfNull = 0;
+export const firstIndex = 0;
+export const defaultDebounceTime = 1000;
+export const initialCurrencyInputValue = '0,00';
+export const numberToDivideWithInputPriceValue = 100;
