@@ -2,7 +2,7 @@
 import * as Constants from 'expo-constants';
 import * as StatusBar from 'expo-status-bar';
 import { Animated, LogBox, StyleSheet } from 'react-native';
-import { HomeHeaderComponent } from 'components/header';
+import { DefaultHeaderComponent, HomeHeaderComponent } from 'components';
 import { NativeBaseProvider } from 'native-base';
 import {
   PoppinsBold,
@@ -107,6 +107,16 @@ const Root: FC = () => (
           />
 
           <Stack.Screen name={'tab-navigation'} options={{ headerShown: false }} />
+
+          <Stack.Screen
+            name={'device-push-token'}
+            options={{
+              header: ({ options, navigation }) => (
+                <DefaultHeaderComponent navigation={navigation} title={options.title} />
+              ),
+              headerTitle: 'Token'
+            }}
+          />
         </Stack>
       </RootSiblingParent>
     </NativeBaseProvider>
