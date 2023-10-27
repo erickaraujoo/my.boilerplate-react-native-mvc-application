@@ -1,6 +1,6 @@
 import { Slot } from 'expo-router';
 import type { FC } from 'react';
 
-const Page: FC = () => <Slot />;
+const Layout: FC = () => <Slot />;
 
-export default Page;
+export default Layout;

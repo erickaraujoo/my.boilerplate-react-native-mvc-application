@@ -12,6 +12,7 @@ const Page: FC = () => (
       <VStack px={'20px'} space={'12px'}>
         <HomeCardComponent href={'/tab-navigation/'} title={'Navegação entre Abas'} />
         <HomeCardComponent href={'/device-push-token/'} title={'Token de Notificação'} />
+        <HomeCardComponent href={'/ia-mask-demo/'} title={'IA - Presença de Máscara (Demo)'} />
       </VStack>
     </VStack>
   </ScrollView>

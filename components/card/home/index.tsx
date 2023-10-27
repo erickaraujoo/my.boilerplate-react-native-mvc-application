@@ -1,5 +1,5 @@
 import { HStack, Pressable, Text } from 'native-base';
-import { MaterialIconComponent } from 'components';
+import { MaterialIconComponent } from 'components/icon';
 import { useRouter } from 'expo-router';
 import type { FC, ReactElement } from 'react';
 import type { Route } from 'expo-router';

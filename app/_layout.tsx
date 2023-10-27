@@ -114,7 +114,17 @@ const Root: FC = () => (
               header: ({ options, navigation }) => (
                 <DefaultHeaderComponent navigation={navigation} title={options.title} />
               ),
-              headerTitle: 'Token'
+              title: 'Push Notification'
+            }}
+          />
+
+          <Stack.Screen
+            name={'ia-mask-demo'}
+            options={{
+              header: ({ options, navigation }) => (
+                <DefaultHeaderComponent navigation={navigation} title={options.title} />
+              ),
+              title: 'Inteligência Artificial'
             }}
           />
         </Stack>
